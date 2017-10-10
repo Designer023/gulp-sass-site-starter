@@ -47,6 +47,12 @@ Or if you want to leave gulp to keep an eye on your changes and run Sass itself 
   gulp watch
 ```
 
+## Editing the styles
+
+Start by editing files in the src/scss directory.
+
+You can either start creating new rules in the styles.scss file or preferable create new scss files for each bigger component and import them into the styles.scss file. Remember if you create a new file start with an underscore so that Sass doesn't create a new css file for each component!
+
 ## Notes
 
 - A 'built' folder is used for compiled files so that it's clear to other users that some kind of build pipeline (Gulp) is being used. This protects from users making changes to the compiled CSS which could later be overwritten by a recompile of the Sass.
