@@ -1,3 +1,14 @@
+// Import variables
 @import "variables/colors";
 
+// Choose your reset or normalise (comment in/out the one you want)
+@import "site/normalize";
+// @import "site/reset";
+
+// Start building your site structure
 @import "site/base";
+
+// Create new _scss files and import as needed
+// Keep underscores before their names so Sass doesn't compile them into a seperate CSS file.
+// e.g.
+// @import "components/_listing-item";
