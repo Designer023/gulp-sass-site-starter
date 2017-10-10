@@ -17,25 +17,35 @@ Head over to [https://nodejs.org/en/](https://nodejs.org/en/) and install the LT
 
 Install Gulp globally on your computer by typing the following into a terminal window:
 
+```
   npm install gulp-cli -g
+```
 
 ## Setup the files and start compiling sass
 
 The packages that process files like Sass need to be installed into the project so they can be used. In the terminal window (in your project directory)
 
+```
   npm install
+```
 
 Now that the packages are installed you can run Gulp.
 
+```
   gulp
+```
 
 By default Gulp will run all the tasks in the default task. Since the aim of this project is to compile Sass into CSS then we need to run
 
+```
   gulp sass
+```
 
 Or if you want to leave gulp to keep an eye on your changes and run Sass itself then run
 
+```
   gulp watch
+```
 
 ## Notes
 
